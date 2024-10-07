@@ -11,6 +11,7 @@ class NetworkDriverTest {
         val networkDriver1 = NetworkDriver.log()
         val networkDriver2 = NetworkDriver.log()
 
-        Assertions.assertThat(networkDriver1).isSameAs(networkDriver2)
+        Assertions.assertThat(networkDriver1).isSameAs(NetworkDriver)
+        Assertions.assertThat(networkDriver2).isSameAs(NetworkDriver)
     }
 }
