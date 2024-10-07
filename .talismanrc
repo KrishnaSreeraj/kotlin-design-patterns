@@ -1,0 +1,3 @@
+fileignoreconfig:
+- filename: .idea/workspace.xml
+  checksum: 428dfda650fa74cd2e8802697367ce0139c3c7d1909f12348fa1ea73c3ddab8b
