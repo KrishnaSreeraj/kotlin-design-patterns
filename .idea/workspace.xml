@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Creational Design Pattern : Factory Method">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/abstractfactory/AbstractFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/creational/abstractfactory/AbstractFactoryTest.kt" afterDir="false" />
+    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Creational Design Pattern : Abstract Factory Method">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/builder/Builder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/creational/builder/ComponentTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.AbstractFactoryTest.abstractFactoryTest.executor": "Run",
+    "Gradle.ComponentTest.builderPattern.executor": "Run",
     "Gradle.FactoryMethodTest.getCurrencyForCountry.executor": "Run",
     "Gradle.NetworkDriverTest.testSingleton.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -81,12 +82,13 @@
       <recent name="creational.singleton" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="creational.builder" />
       <recent name="creational.abstractfactory" />
       <recent name="creational.factory" />
       <recent name="creational.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AbstractFactoryTest.abstractFactoryTest">
+  <component name="RunManager" selected="Gradle.ComponentTest.builderPattern">
     <configuration name="AbstractFactoryTest.abstractFactoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -101,6 +103,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;creational.abstractfactory.AbstractFactoryTest.abstractFactoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ComponentTest.builderPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;creational.builder.ComponentTest.builderPattern&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -161,6 +187,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ComponentTest.builderPattern" />
         <item itemvalue="Gradle.AbstractFactoryTest.abstractFactoryTest" />
         <item itemvalue="Gradle.FactoryMethodTest.getCurrencyForCountry" />
         <item itemvalue="Gradle.NetworkDriverTest.testSingleton" />
@@ -208,7 +235,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728365762343</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creational Design Pattern : Abstract Factory Method">
+      <option name="closed" value="true" />
+      <created>1728374030276</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728374030276</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Creational Design Pattern : Abstract Factory Method">
+      <option name="closed" value="true" />
+      <created>1728374055337</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728374055337</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +270,8 @@
     <MESSAGE value="Creational Design Pattern : Singleton" />
     <MESSAGE value="Creational Design Pattern : Singleton - Fix test" />
     <MESSAGE value="Creational Design Pattern : Factory Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creational Design Pattern : Factory Method" />
+    <MESSAGE value="Creational Design Pattern : Abstract Factory Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creational Design Pattern : Abstract Factory Method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
