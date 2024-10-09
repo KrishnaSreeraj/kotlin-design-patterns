@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Creational Design Pattern : Abstract Factory Method">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/builder/Builder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/creational/builder/ComponentTest.kt" afterDir="false" />
+    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Creational Design Pattern : Builder Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/lazyinitialization/LazyInitialization.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/creational/lazyinitialization/LazyInitializationTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,30 +51,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2n6JdDWt2fBMdiYm69OXv6yG4cW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AbstractFactoryTest.abstractFactoryTest.executor": "Run",
-    "Gradle.ComponentTest.builderPattern.executor": "Run",
-    "Gradle.FactoryMethodTest.getCurrencyForCountry.executor": "Run",
-    "Gradle.NetworkDriverTest.testSingleton.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/krishna.sreeraj/Desktop/Learnings/SystemDesign/kotlin-design-patterns/src/main/kotlin/Main.kt"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AbstractFactoryTest.abstractFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ComponentTest.builderPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FactoryMethodTest.getCurrencyForCountry.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LazyInitializationTest.window2Test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LazyInitializationTest.windowLateInitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LazyInitializationTest.windowLazyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LazyInitializationTest.windowTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NetworkDriverTest.testSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/krishna.sreeraj/Desktop/Learnings/SystemDesign/kotlin-design-patterns/src/main/kotlin/Main.kt&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -82,37 +90,14 @@
       <recent name="creational.singleton" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="creational.lazyinitialization" />
       <recent name="creational.builder" />
       <recent name="creational.abstractfactory" />
       <recent name="creational.factory" />
       <recent name="creational.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ComponentTest.builderPattern">
-    <configuration name="AbstractFactoryTest.abstractFactoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;creational.abstractfactory.AbstractFactoryTest.abstractFactoryTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.LazyInitializationTest.windowLazyTest">
     <configuration name="ComponentTest.builderPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,7 +122,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="FactoryMethodTest.getCurrencyForCountry" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LazyInitializationTest.window2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -150,7 +135,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;creational.factory.FactoryMethodTest.getCurrencyForCountry&quot;" />
+            <option value="&quot;creational.lazyinitialization.LazyInitializationTest.window2Test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -161,7 +146,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="NetworkDriverTest.testSingleton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LazyInitializationTest.windowLateInitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -174,7 +159,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;creational.singleton.NetworkDriverTest.testSingleton&quot;" />
+            <option value="&quot;creational.lazyinitialization.LazyInitializationTest.windowLateInitTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LazyInitializationTest.windowLazyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;creational.lazyinitialization.LazyInitializationTest.windowLazyTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LazyInitializationTest.windowTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;creational.lazyinitialization.LazyInitializationTest.windowTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -187,10 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LazyInitializationTest.windowLazyTest" />
+        <item itemvalue="Gradle.LazyInitializationTest.windowLateInitTest" />
+        <item itemvalue="Gradle.LazyInitializationTest.window2Test" />
+        <item itemvalue="Gradle.LazyInitializationTest.windowTest" />
         <item itemvalue="Gradle.ComponentTest.builderPattern" />
-        <item itemvalue="Gradle.AbstractFactoryTest.abstractFactoryTest" />
-        <item itemvalue="Gradle.FactoryMethodTest.getCurrencyForCountry" />
-        <item itemvalue="Gradle.NetworkDriverTest.testSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +285,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728374055337</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Creational Design Pattern : Builder Pattern">
+      <option name="closed" value="true" />
+      <created>1728388570992</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728388570992</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creational Design Pattern : Builder Pattern">
+      <option name="closed" value="true" />
+      <created>1728388588996</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728388588996</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +321,8 @@
     <MESSAGE value="Creational Design Pattern : Singleton - Fix test" />
     <MESSAGE value="Creational Design Pattern : Factory Method" />
     <MESSAGE value="Creational Design Pattern : Abstract Factory Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creational Design Pattern : Abstract Factory Method" />
+    <MESSAGE value="Creational Design Pattern : Builder Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creational Design Pattern : Builder Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
