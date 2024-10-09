@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Creational Design Pattern : Lazy Initialization Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/creational/prototype/Prototype.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/creational/prototype/PrototypeTest.kt" afterDir="false" />
+    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Creational Design Pattern : Prototype Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/adapter/Adapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/structural/adapter/AdapterTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.AbstractFactoryTest.abstractFactoryTest.executor": "Run",
+    "Gradle.AdapterTest.adapterPattern.executor": "Run",
     "Gradle.ComponentTest.builderPattern.executor": "Run",
     "Gradle.FactoryMethodTest.getCurrencyForCountry.executor": "Run",
     "Gradle.LazyInitializationTest.window2Test.executor": "Run",
@@ -90,14 +91,38 @@
       <recent name="creational.singleton" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="structural.adapter" />
       <recent name="creational.prototype" />
       <recent name="creational.lazyinitialization" />
       <recent name="creational.builder" />
       <recent name="creational.abstractfactory" />
-      <recent name="creational.factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PrototypeTest.prototypePattern">
+  <component name="RunManager" selected="Gradle.AdapterTest.adapterPattern">
+    <configuration name="AdapterTest.adapterPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;structural.adapter.AdapterTest.adapterPattern&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="LazyInitializationTest.window2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,30 +195,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LazyInitializationTest.windowTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;creational.lazyinitialization.LazyInitializationTest.windowTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="PrototypeTest.prototypePattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -220,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AdapterTest.adapterPattern" />
         <item itemvalue="Gradle.PrototypeTest.prototypePattern" />
         <item itemvalue="Gradle.LazyInitializationTest.windowLazyTest" />
         <item itemvalue="Gradle.LazyInitializationTest.windowLateInitTest" />
         <item itemvalue="Gradle.LazyInitializationTest.window2Test" />
-        <item itemvalue="Gradle.LazyInitializationTest.windowTest" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728454087732</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Creational Design Pattern : Prototype Pattern">
+      <option name="closed" value="true" />
+      <created>1728470054303</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728470054303</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,7 +340,8 @@
     <MESSAGE value="Creational Design Pattern : Abstract Factory Method" />
     <MESSAGE value="Creational Design Pattern : Builder Pattern" />
     <MESSAGE value="Creational Design Pattern : Lazy Initialization Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creational Design Pattern : Lazy Initialization Pattern" />
+    <MESSAGE value="Creational Design Pattern : Prototype Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creational Design Pattern : Prototype Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
