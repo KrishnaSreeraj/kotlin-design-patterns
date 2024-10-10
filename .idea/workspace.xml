@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Creational Design Pattern : Prototype Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/adapter/Adapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/structural/adapter/AdapterTest.kt" afterDir="false" />
+    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Structural Design Pattern : Adapter Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/builder/Builder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/structural/builder/BridgeTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,27 +62,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AbstractFactoryTest.abstractFactoryTest.executor": "Run",
-    "Gradle.AdapterTest.adapterPattern.executor": "Run",
-    "Gradle.ComponentTest.builderPattern.executor": "Run",
-    "Gradle.FactoryMethodTest.getCurrencyForCountry.executor": "Run",
-    "Gradle.LazyInitializationTest.window2Test.executor": "Run",
-    "Gradle.LazyInitializationTest.windowLateInitTest.executor": "Run",
-    "Gradle.LazyInitializationTest.windowLazyTest.executor": "Run",
-    "Gradle.LazyInitializationTest.windowTest.executor": "Run",
-    "Gradle.NetworkDriverTest.testSingleton.executor": "Run",
-    "Gradle.PrototypeTest.prototypePattern.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/krishna.sreeraj/Desktop/Learnings/SystemDesign/kotlin-design-patterns/src/main/kotlin/Main.kt"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AbstractFactoryTest.abstractFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AdapterTest.adapterPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BridgeTest.bridgePattern.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BridgeTest.bridgePatternWithSize.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ComponentTest.builderPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FactoryMethodTest.getCurrencyForCountry.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LazyInitializationTest.window2Test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LazyInitializationTest.windowLateInitTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LazyInitializationTest.windowLazyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LazyInitializationTest.windowTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NetworkDriverTest.testSingleton.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PrototypeTest.prototypePattern.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/krishna.sreeraj/Desktop/Learnings/SystemDesign/kotlin-design-patterns/src/main/kotlin/Main.kt&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -91,14 +93,14 @@
       <recent name="creational.singleton" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="structural.builder" />
       <recent name="structural.adapter" />
       <recent name="creational.prototype" />
       <recent name="creational.lazyinitialization" />
       <recent name="creational.builder" />
-      <recent name="creational.abstractfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AdapterTest.adapterPattern">
+  <component name="RunManager" selected="Gradle.BridgeTest.bridgePatternWithSize">
     <configuration name="AdapterTest.adapterPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,7 +125,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LazyInitializationTest.window2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BridgeTest.bridgePattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +138,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;creational.lazyinitialization.LazyInitializationTest.window2Test&quot;" />
+            <option value="&quot;structural.builder.BridgeTest.bridgePattern&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +149,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LazyInitializationTest.windowLateInitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BridgeTest.bridgePatternWithSize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +162,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;creational.lazyinitialization.LazyInitializationTest.windowLateInitTest&quot;" />
+            <option value="&quot;structural.builder.BridgeTest.bridgePatternWithSize&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -221,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BridgeTest.bridgePatternWithSize" />
+        <item itemvalue="Gradle.BridgeTest.bridgePattern" />
         <item itemvalue="Gradle.AdapterTest.adapterPattern" />
         <item itemvalue="Gradle.PrototypeTest.prototypePattern" />
         <item itemvalue="Gradle.LazyInitializationTest.windowLazyTest" />
-        <item itemvalue="Gradle.LazyInitializationTest.windowLateInitTest" />
-        <item itemvalue="Gradle.LazyInitializationTest.window2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728470054303</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Structural Design Pattern : Adapter Pattern">
+      <option name="closed" value="true" />
+      <created>1728477246001</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728477246001</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,7 +351,8 @@
     <MESSAGE value="Creational Design Pattern : Builder Pattern" />
     <MESSAGE value="Creational Design Pattern : Lazy Initialization Pattern" />
     <MESSAGE value="Creational Design Pattern : Prototype Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creational Design Pattern : Prototype Pattern" />
+    <MESSAGE value="Structural Design Pattern : Adapter Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structural Design Pattern : Adapter Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
