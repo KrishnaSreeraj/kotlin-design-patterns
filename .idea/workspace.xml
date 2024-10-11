@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Structural Design Pattern : Proxy Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioural/observer/Observer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/behavioural/observer/ObserverTest.kt" afterDir="false" />
+    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Behavioural Design Pattern : Observer Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioural/chainofresponsibility/ChainOfResponsibility.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/behavioural/chainofresponsibility/ChainOfResponsibilityTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     "Gradle.AdapterTest.adapterPattern.executor": "Run",
     "Gradle.BridgeTest.bridgePattern.executor": "Run",
     "Gradle.BridgeTest.bridgePatternWithSize.executor": "Run",
+    "Gradle.ChainOfResponsibilityTest.chainOfResponsibilityPattern.executor": "Run",
     "Gradle.ComponentTest.builderPattern.executor": "Run",
     "Gradle.CompositeTest.compositePattern.executor": "Run",
     "Gradle.DecoratorTest.decoratorPattern.executor": "Run",
@@ -98,14 +99,38 @@
       <recent name="creational.singleton" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="behavioural.chainofresponsibility" />
       <recent name="behavioural.observer" />
       <recent name="structural.proxy" />
       <recent name="structural.composite" />
       <recent name="structural.decorator" />
-      <recent name="structural.facade" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ObserverTest.observerPattern">
+  <component name="RunManager" selected="Gradle.ChainOfResponsibilityTest.chainOfResponsibilityPattern">
+    <configuration name="ChainOfResponsibilityTest.chainOfResponsibilityPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;behavioural.chainofresponsibility.ChainOfResponsibilityTest.chainOfResponsibilityPattern&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="CompositeTest.compositePattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -144,30 +169,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;structural.decorator.DecoratorTest.decoratorPattern&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="FacadeTest.facadePattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;structural.facade.FacadeTest.facadePattern&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -228,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ChainOfResponsibilityTest.chainOfResponsibilityPattern" />
         <item itemvalue="Gradle.ObserverTest.observerPattern" />
         <item itemvalue="Gradle.DecoratorTest.decoratorPattern" />
         <item itemvalue="Gradle.ProxyTest.proxyPattern" />
         <item itemvalue="Gradle.CompositeTest.compositePattern" />
-        <item itemvalue="Gradle.FacadeTest.facadePattern" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728631981510</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Behavioural Design Pattern : Observer Pattern">
+      <option name="closed" value="true" />
+      <created>1728643196695</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728643196695</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +411,8 @@
     <MESSAGE value="Structural Design Pattern : Decorator Pattern" />
     <MESSAGE value="Structural Design Pattern : Composite Pattern" />
     <MESSAGE value="Structural Design Pattern : Proxy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Structural Design Pattern : Proxy Pattern" />
+    <MESSAGE value="Behavioural Design Pattern : Observer Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Behavioural Design Pattern : Observer Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
