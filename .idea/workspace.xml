@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Structural Design Pattern : Composite Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/structural/proxy/Proxy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/structural/proxy/ProxyTest.kt" afterDir="false" />
+    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Structural Design Pattern : Proxy Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioural/observer/Observer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/behavioural/observer/ObserverTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +78,7 @@
     "Gradle.LazyInitializationTest.windowLazyTest.executor": "Run",
     "Gradle.LazyInitializationTest.windowTest.executor": "Run",
     "Gradle.NetworkDriverTest.testSingleton.executor": "Run",
+    "Gradle.ObserverTest.observerPattern.executor": "Run",
     "Gradle.PrototypeTest.prototypePattern.executor": "Run",
     "Gradle.ProxyTest.proxyPattern.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -97,38 +98,14 @@
       <recent name="creational.singleton" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="behavioural.observer" />
       <recent name="structural.proxy" />
       <recent name="structural.composite" />
       <recent name="structural.decorator" />
       <recent name="structural.facade" />
-      <recent name="structural.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DecoratorTest.decoratorPattern">
-    <configuration name="BridgeTest.bridgePatternWithSize" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;structural.builder.BridgeTest.bridgePatternWithSize&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.ObserverTest.observerPattern">
     <configuration name="CompositeTest.compositePattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -201,6 +178,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="ObserverTest.observerPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;behavioural.observer.ObserverTest.observerPattern&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ProxyTest.proxyPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ObserverTest.observerPattern" />
         <item itemvalue="Gradle.DecoratorTest.decoratorPattern" />
         <item itemvalue="Gradle.ProxyTest.proxyPattern" />
         <item itemvalue="Gradle.CompositeTest.compositePattern" />
         <item itemvalue="Gradle.FacadeTest.facadePattern" />
-        <item itemvalue="Gradle.BridgeTest.bridgePatternWithSize" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728625681201</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Structural Design Pattern : Proxy Pattern">
+      <option name="closed" value="true" />
+      <created>1728631981510</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728631981510</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,7 +401,8 @@
     <MESSAGE value="Structural Design Pattern : Facade Pattern" />
     <MESSAGE value="Structural Design Pattern : Decorator Pattern" />
     <MESSAGE value="Structural Design Pattern : Composite Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Structural Design Pattern : Composite Pattern" />
+    <MESSAGE value="Structural Design Pattern : Proxy Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Structural Design Pattern : Proxy Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
