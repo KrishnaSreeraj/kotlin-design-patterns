@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Behavioural Design Pattern : Visitor Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioural/mediator/Mediator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/behavioural/mediator/MediatorTest.kt" afterDir="false" />
+    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Behavioural Design Pattern : Mediator Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioural/memento/Memento.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/behavioural/memento/MementoTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +81,7 @@
     "Gradle.LazyInitializationTest.windowLazyTest.executor": "Run",
     "Gradle.LazyInitializationTest.windowTest.executor": "Run",
     "Gradle.MediatorTest.mediatorPattern.executor": "Run",
+    "Gradle.MementoTest.mementoPattern.executor": "Run",
     "Gradle.NetworkDriverTest.testSingleton.executor": "Run",
     "Gradle.ObserverTest.observerPattern.executor": "Run",
     "Gradle.PaymentTest.strategyPattern.executor": "Run",
@@ -105,14 +106,14 @@
       <recent name="creational.singleton" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="behavioural.memento" />
       <recent name="behavioural.mediator" />
       <recent name="behavioural.visitor" />
       <recent name="behavioural.state" />
       <recent name="behavioural.strategy" />
-      <recent name="behavioural.command" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MediatorTest.mediatorPattern">
+  <component name="RunManager" selected="Gradle.MementoTest.mementoPattern">
     <configuration name="MediatorTest.mediatorPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -127,6 +128,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;behavioural.mediator.MediatorTest.mediatorPattern&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MementoTest.mementoPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;behavioural.memento.MementoTest.mementoPattern&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,30 +210,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StrategyTest.strategyPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;behavioural.strategy.StrategyTest.strategyPattern&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="VisitorTest.visitorPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -235,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MementoTest.mementoPattern" />
         <item itemvalue="Gradle.MediatorTest.mediatorPattern" />
         <item itemvalue="Gradle.VisitorTest.visitorPattern" />
         <item itemvalue="Gradle.StateTest.statePattern" />
         <item itemvalue="Gradle.PaymentTest.strategyPattern" />
-        <item itemvalue="Gradle.StrategyTest.strategyPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728902801325</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Behavioural Design Pattern : Mediator Pattern">
+      <option name="closed" value="true" />
+      <created>1728905711869</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1728905711869</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +507,8 @@
     <MESSAGE value="Add workspace.xml to gitignore" />
     <MESSAGE value="Behavioural Design Pattern : State Pattern" />
     <MESSAGE value="Behavioural Design Pattern : Visitor Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Behavioural Design Pattern : Visitor Pattern" />
+    <MESSAGE value="Behavioural Design Pattern : Mediator Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Behavioural Design Pattern : Mediator Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
