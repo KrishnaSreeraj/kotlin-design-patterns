@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Add workspace.xml to gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioural/state/State.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/behavioural/state/StateTest.kt" afterDir="false" />
+    <list default="true" id="cdeef7c5-9e03-4eb7-9bd3-1048115fd3fa" name="Changes" comment="Behavioural Design Pattern : State Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/behavioural/visitor/Visitor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/behavioural/visitor/VisitorTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +87,7 @@
     "Gradle.ProxyTest.proxyPattern.executor": "Run",
     "Gradle.StateTest.statePattern.executor": "Run",
     "Gradle.StrategyTest.strategyPattern.executor": "Run",
+    "Gradle.VisitorTest.visitorPattern.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -103,38 +104,14 @@
       <recent name="creational.singleton" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="behavioural.visitor" />
       <recent name="behavioural.state" />
       <recent name="behavioural.strategy" />
       <recent name="behavioural.command" />
       <recent name="behavioural.chainofresponsibility" />
-      <recent name="behavioural.observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StateTest.statePattern">
-    <configuration name="ChainOfResponsibilityTest.chainOfResponsibilityPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;behavioural.chainofresponsibility.ChainOfResponsibilityTest.chainOfResponsibilityPattern&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.VisitorTest.visitorPattern">
     <configuration name="CommandTest.commandPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -231,13 +208,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="VisitorTest.visitorPattern" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;behavioural.visitor.VisitorTest.visitorPattern&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.VisitorTest.visitorPattern" />
         <item itemvalue="Gradle.StateTest.statePattern" />
         <item itemvalue="Gradle.PaymentTest.strategyPattern" />
         <item itemvalue="Gradle.StrategyTest.strategyPattern" />
         <item itemvalue="Gradle.CommandTest.commandPattern" />
-        <item itemvalue="Gradle.ChainOfResponsibilityTest.chainOfResponsibilityPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728886004689</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Behavioural Design Pattern : State Pattern">
+      <option name="closed" value="true" />
+      <created>1728894463252</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1728894463252</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +487,8 @@
     <MESSAGE value="Behavioural Design Pattern : Strategy Pattern Eg 1" />
     <MESSAGE value="Behavioural Design Pattern : Strategy Pattern Eg 2: Payment Strategy" />
     <MESSAGE value="Add workspace.xml to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add workspace.xml to gitignore" />
+    <MESSAGE value="Behavioural Design Pattern : State Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Behavioural Design Pattern : State Pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
